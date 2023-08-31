@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Old Standard TT', serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.titulo{
+    color: black;
+    
+}
+img{
+    border-radius: 26px;
+}
+body{
+    background-color: #EDF1D6;
+}
+header{
+    padding: 10px 10px 10px 0px;
+    background-color: #9DC08B;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ul li{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+footer{
+    display: flex;
+    padding: 10px 10px 10px 10px ;
+    justify-content: space-between;
+    background-color: #609966;
+}
+
+section{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "titulo"
+    "productos";
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+   
+    flex-wrap: wrap;
+}
+.card {
+    width: 50%;
+}
+.categorias{
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "titulo  "
+    "categorias"
+    ;
+}
+/* card */
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card a {
+    display: flex;
+    justify-content: center;
+}
+.card .descripcion{
+font-weight: bold;
+font-size: large;
+}
+.tituloProductos{
+    grid-area: "titulo";
+    display: flex;
+    justify-content: center;
+    
+}
+.conteinerCategorias{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+.conteinerCategorias a img{
+    
+    grid-area: "categorias";
+    margin-top: 20px;
+    max-height: 200px;
+    
+    
+}
+.producto img{
+    width: 25%;
+}
+.contenedor img{
+width: 25%;
+margin: 20px;
+}
+h2{
+    display: inline-block;
+}
+.blog img{
+    width: 25%;
+}
+
+@media (max-width:1182px) {
+    .slider img{
+        max-width: 900px;
+    }
+}
+@media (max-width:1024px) {
+    .slider img{
+        max-width: 600px;
+    }
+    .conteinerCategorias img{
+        max-width: 150px;
+    }
+}
+@media (max-width:768px) {
+    ul li{
+        font-size: 16px;
+    }
+    .slider img{
+        max-width: 400px;
+    }
+    .conteinerCategorias img{
+        max-width: 100px;
+    }
+}
+@media (max-width:508px) {
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: medium;
+    }
+    span{
+        font-size: small;
+    }
+    .card .descripcion{
+        font-size: small;
+    }
+    ul li{
+        font-size: 12px;
+    }
+    .slider img{
+        max-width: 250px;
+    }
+    .conteinerCategorias img{
+        max-width: 50px;
+    }
+}
