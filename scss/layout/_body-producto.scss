@@ -1,0 +1,24 @@
+.producto{
+    height: 100vh;
+    @include flex(row, no-wrap, center, center, 0px);
+    .imagen{
+        width: 50%;
+        img{
+            border-radius: 20px;
+            width: 25%;
+        }
+    }
+    .infoProducto{
+
+        h2{
+            padding-bottom: 200px;
+        }
+        @include flex (column, no-wrap, center, center, 30px);
+        .comprar{
+            padding: 10px;
+            background-color: $color-verde-suave;
+            border-radius: 20px;
+            color: black;
+        }
+    }
+}

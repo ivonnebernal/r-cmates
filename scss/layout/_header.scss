@@ -1,0 +1,10 @@
+header{
+    padding: 10px 10px 10px 0px;
+    background-color: $color-verde-suave;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    ul{
+        @include flex(row, no-wrap, start, center, 20px);
+    }
+}

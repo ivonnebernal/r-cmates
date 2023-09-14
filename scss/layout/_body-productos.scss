@@ -1,0 +1,25 @@
+.productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    "titulo"
+    "productos";
+    .tituloProductos{
+        grid-area: "titulo";
+        display: flex;
+        justify-content: center;
+        
+    }
+    .contenedor{
+        @include flex (row, wrap, space-between, start, 0px);
+        .card{
+            a{
+                img{
+                    width: 25%;
+                }
+            }
+    }
+    }
+
+}

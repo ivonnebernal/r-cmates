@@ -1,0 +1,15 @@
+.card{
+    width: 50%;
+    @include flex (column, no-wrap, center, center, 0px);
+    a{
+        @include flex (row, no-wrap, center, start, 0px);
+    img{
+        border-radius: 20%;
+        
+    }
+    }
+    .descripcion{
+        font-weight: bold;
+        font-size: large;
+        }
+}

@@ -1,0 +1,15 @@
+
+.contacto{
+    height: 100vh;
+    form{
+        @include flex(column, no-wrap, center, center, 10px);
+        h2{
+            padding-bottom: 20px;
+        }
+        button{
+            background-color: $color-verde-suave;
+            border-radius: 20px;
+            padding: 20px;
+        }
+    }
+}
