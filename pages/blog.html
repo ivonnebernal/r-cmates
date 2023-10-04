@@ -3,36 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href='https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f9c9.svg'> <!--Para colocar el icono de la pestana-->
-
+    <meta name="description" content="Como curar el mate.">
     <title>Blog</title>
 </head>
 <body>
     <header>
         <a class="titulo" href="../index.html"><h1>R&C MATES</h1></a>
-        <ul>
-            <a href="#"><li>Blog</li></a>
-            <a href="./contacto.html"><li>Contacto</li></a>
-            <li>Nosotros</li>
-        </ul>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav id="nav" class="nav">
+            
+            <ul class="nav-list" >
+                <button id="cerrar" class="cerrar-menu" ><i class="bi bi-x-lg"></i></button>
+                <a href="./blog.html"><li>Blog</li></a>
+                <a href="./contacto.html"><li>Contacto</li></a>
+                <a href="#"><li>Nosotros</li></a>
+            </ul>
+        </nav>
+        
     </header>
     <main>
-        <article>
             <section class="blog">
-                <h2>Como curar el mate.</h2>
-                <img src="../assets/curar.jpg" alt="curar-mate">
-                <p>El mate es un símbolo culturar de varios países de Latinoamérica. Cambia la forma en que se lo prepara, algunos lo prefieren dulce, otros amargos, en el Litoral argentino lo toman frío, se lo llama Tereré, la mayoría lo toma caliente. Lo que es seguro es que en la mayoría de las casas hay un mate.
-                    Método para curar el mateProcedimiento básico:Se lava muy bien el interior del mate nuevo con agua caliente, quitándose las cutículas adheridas a las paredes. Una vez escurrido se llena con una cebadura ya usada, luego se le agrega un poco de agua tibia para que la yerba no se seque muy rápidamente.Al día siguiente se vacía y vuelve a repetirse la operación, aunque esta vez sin lavar la calabaza. A partir del día siguiente, el mate ya está absolutamente curado y puede comenzar a utilizarse.</p>
+                <article>
+                    <h2>Como curar el mate.</h2>
+                    <img src="../assets/curar.jpg" alt="curar-mate">
+                    <p>El mate es un símbolo culturar de varios países de Latinoamérica. Cambia la forma en que se lo prepara, algunos lo prefieren dulce, otros amargos, en el Litoral argentino lo toman frío, se lo llama Tereré, la mayoría lo toma caliente. Lo que es seguro es que en la mayoría de las casas hay un mate.
+                        Método para curar el mateProcedimiento básico:Se lava muy bien el interior del mate nuevo con agua caliente, quitándose las cutículas adheridas a las paredes. Una vez escurrido se llena con una cebadura ya usada, luego se le agrega un poco de agua tibia para que la yerba no se seque muy rápidamente.Al día siguiente se vacía y vuelve a repetirse la operación, aunque esta vez sin lavar la calabaza. A partir del día siguiente, el mate ya está absolutamente curado y puede comenzar a utilizarse.</p>    
+                </article>
+                
+                <article>
+                    <h2>Como curar el mate dulce.</h2>
+                    <img src="https://www.serargentino.com/public/images/2019/05/C%C3%B3mo-curar-un-mate-dulce-773x458.jpeg" alt="curar-mate-dulce">
+                    <p> <strong>Paso 1.</strong>  Lavar por dentro el recipiente de madera o de calabaza. Este primer paso se hace con agua caliente, preferentemente hervida, y sirve para desinfectar y eliminar bacterias, polvo y fibras.
+                        <strong>Paso 2.</strong> Echarle azúcar (no edulcorante sintético). Dos cucharaditas son suficientes, pero depende del tamaño del mate, si es necesario, agregar más. Tapar con la mano la entrada del mate y agitarlo para que el azúcar se pegue a las paredes.
+                        <strong>Paso 3.</strong>  Dejar secar con el azúcar. Esperar unas horas hasta que el azúcar se haya secado y haya dejado una capa que cubra las paredes del mate.
+                        <strong>Paso 4.</strong>  Quemar con carbón. Cuando el mate ya está seco, echar dos brasitas pequeñas de carbón caliente, cubrir la boca del mate con la mano usando un repasador para no quemarse y agitarlo hasta que las brasas se apaguen.
+                        <strong>Paso 5.</strong> Repetir la operación. Este paso no es obligatorio, pero es bueno repetir los pasos 2, 3 y 4 para asegurar una curación mejor.
+                        <strong>Paso 6.</strong> Ponerle yerba. Enjuagar el mate con agua caliente, llenarlo con yerba nueva, humedecer la yerba agua tibia para que hinche y dejarlo así toda una noche.
+                        <strong>Paso 7.</strong> Al día siguiente el mate estará listo para lavar y usarse por primera vez.</p>
+                </article>
             </section>
-            <section>
-                <h2>Como curar el mate dulve.</h2>
-                <img src="../assets/curar.jpg" alt="curar-mate">
-                <p>El mate es un símbolo culturar de varios países de Latinoamérica. Cambia la forma en que se lo prepara, algunos lo prefieren dulce, otros amargos, en el Litoral argentino lo toman frío, se lo llama Tereré, la mayoría lo toma caliente. Lo que es seguro es que en la mayoría de las casas hay un mate.
-                    Método para curar el mateProcedimiento básico:Se lava muy bien el interior del mate nuevo con agua caliente, quitándose las cutículas adheridas a las paredes. Una vez escurrido se llena con una cebadura ya usada, luego se le agrega un poco de agua tibia para que la yerba no se seque muy rápidamente.Al día siguiente se vacía y vuelve a repetirse la operación, aunque esta vez sin lavar la calabaza. A partir del día siguiente, el mate ya está absolutamente curado y puede comenzar a utilizarse.</p>
-            </section>
-        </article>
-        
     </main>
     <footer>
         <ul>
@@ -53,5 +66,6 @@
             <li>Direccion: Agustin Pedro Justo 55 - Corrientes Capital</li>
         </ul>
     </footer>
+    <script src="../main.js"></script>
 </body>
 </html>

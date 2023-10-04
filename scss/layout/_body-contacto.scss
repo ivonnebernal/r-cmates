@@ -1,7 +1,9 @@
 
 .contacto{
     height: 100vh;
+    
     form{
+        width: 50%;
         @include flex(column, no-wrap, center, center, 10px);
         h2{
             padding-bottom: 20px;
@@ -10,6 +12,11 @@
             background-color: $color-verde-suave;
             border-radius: 20px;
             padding: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: $background-color;
+            border: solid $color-verde-suave;
         }
     }
 }

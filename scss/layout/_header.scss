@@ -1,4 +1,8 @@
 header{
+    .abrir-menu,
+    .cerrar-menu{
+        display: none;
+    }
     padding: 10px 10px 10px 0px;
     background-color: $color-verde-suave;
     display: flex;

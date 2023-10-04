@@ -15,10 +15,15 @@
         }
         @include flex (column, no-wrap, center, center, 30px);
         .comprar{
-            padding: 10px;
+            padding: 30px;
             background-color: $color-verde-suave;
             border-radius: 20px;
             color: black;
+            
+        }
+        .comprar:hover{
+            background-color: $background-color;
+            border: solid $color-verde-suave;
         }
     }
 }
